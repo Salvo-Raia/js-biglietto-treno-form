@@ -3,6 +3,7 @@ const ticketForm = document.getElementById("ticket-form");
 const nameInput = document.getElementById("name-input");
 const kmInput = document.getElementById("km-input");
 const ageInput = document.getElementById("age-input")
+const cancel = document.getElementById("cancel")
 
 /* Final Ticket variables */
 const ticketOutput = document.getElementById("ticket-price");
@@ -30,7 +31,6 @@ console.log("Fascia d'età:", age);
 nameInput.value="";
 kmInput.value="";
 ageInput.value="";
-
 ticketOutput.classList.remove("d-none")
 
 if (age === "Minorenne") {
@@ -49,5 +49,11 @@ if (age === "Minorenne") {
     plan.innerText = "Tariffa standard"
     price.innerText = `${finalTicketPrice} €`
 }
+})
+
+cancel.addEventListener("click", function() {
+nameInput.value="";
+kmInput.value="";
+ageInput.value="";
 })
 

@@ -9,60 +9,64 @@
     <title>Document</title>
 </head>
 <body class="bg-danger">
-    <header class="container my-2">
-       <h1 class="text-white">Boolean Train System</h1> 
+    <header class="container my-3">
+        <h1 class="text-white">Boolean Train System</h1>
     </header>
 
-    <section>
-        <div class="container text-center my-4">
-            <h2 class="text-white mb-4">Calcola il prezzo del tuo biglietto</h2>
-            <form id="ticket-form" class="row g-3 border rounded text-danger fs-4 bg-light py-3">
+    <section class="my-5">
+        <div class="container text-center">
+            <h2 class="text-white">CALCOLA IL PREZZO DEL TUO BIGLIETTO</h2>
+            <form id="ticket-form" class="row border rounded text-danger fs-4 bg-light shadow-lg p-4 ">
                 <div class="col-4">
-                    <label for="name-input">Nome e cognome</label>
-                    <input id="name-input" class="form-control" type="text" name="name-input" required>
+                    <label for="name-input" class="mb-2">Nome e cognome</label>
+                    <input id="name-input" class="form-control border border-danger" type="text" name="name-input" required>
                 </div>
                 <div class="col-4">
-                    <label for="km-input">Chilometri di viaggio previsti</label>
-                    <input id="km-input" class="form-control" type="number" name="km-input" required>
+                    <label for="km-input" class="mb-2">Chilometri di viaggio previsti</label>
+                    <input id="km-input" class="form-control border border-danger" type="number" name="km-input" required>
                 </div>
                 <div class="col-4">
-                    <label for="age-input">Fascia d'età</label>
-                    <select id="age-input" class="form-select" name="age-input" required>
+                    <label for="age-input" class="mb-2">Fascia d'età</label>
+                    <select id="age-input" class="form-select border border-danger" name="age-input" required>
                         <option value="Maggiorenne">Maggiorenne</option>
                         <option value="Minorenne">Minorenne</option>
                         <option value="Over 65">Over 65</option>
                     </select>
                 </div>
-                <div class="col-12 d-flex justify-content-center gap-2">
-                    <button class="btn btn-primary">Invia</button>
-                    <button class="btn btn-primary">Annulla</button>
+                <div class="col-12 d-flex justify-content-center gap-2 my-4">
+                    <button id="submit" class="btn btn-secondary text-danger fs-5 fw-bold">Invia</button>
+                    <button id="cancel" class="btn btn-secondary text-danger fs-5 fw-bold">Annulla</button>
                 </div>
             </form>
+        </section>
 
-            <div id="ticket-price" class="row row-cols-5 my-5 d-none">
-                <div>
-                    <h4>Nome passeggero</h3>
-                    <p id="passenger-name"></p>
+    <section id="ticket-price" class="d-none">
+        <h2 class="text-center text-white">IL TUO BIGLIETTO</h2>
+        <div class="container bg-light shadow-lg p-4 ">
+            <h3 class="fs-5">DETTAGLIO PASSEGGERI</h3>
+                <div class="row row-cols-5 border-top border-bottom border-secondary">
+                    <div class="col bg-secondary p-2">
+                        <h4 class="fs-5">👤 NOME PASSEGGERO</h4>
+                        <strong id="passenger-name" class="fs-5 my-5"></strong>
+                    </div>
+                    <div class="col p-2">
+                        <h4 class="fs-5">🏷️ Offerta</h4>
+                        <p id="plan" class="my-5"></p>
+                        </div>
+                    <div class="col p-2">
+                        <h4 class="fs-5">🚄 Carrozza</h4>
+                        <p id="Carrozza" class="my-5">5</p>
+                        </div>
+                    <div class="col p-2">
+                        <h4 class="fs-5">☑️ Codice CP</h4>
+                        <p class="my-5">92911</p>
+                        </div>
+                    <div class="col p-2">
+                        <h4 class="fs-5">💶 Costo biglietto</h4>
+                        <p id="price" class="my-5"></p>
+                        </div>
                 </div>
-                <div>
-                    <h4>Offerta</h4>
-                    <p id="plan"></p>
-                    </div>
-                <div>
-                    <h4>Carrozza</h4>
-                    <p id="Carrozza">5</p>
-                    </div>
-                <div>
-                    <h4>Codice CP</h4>
-                    <p>92911</p>
-                    </div>
-                <div>
-                    <h4>Costo biglietto</h4>
-                    <p id="price"></p>
-                    </div>
-
-            </div>
-        </div>
+                </div>
     </section>
 
 
