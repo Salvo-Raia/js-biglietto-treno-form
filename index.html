@@ -6,35 +6,47 @@
     <!-- Bootstrap stylesheet -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" 
     integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./css/style.css" type="text/css">
+    <link rel="icon" href="./img/logo.png" type="image/png">
     <title>Boolean Train System - Acquista biglietto</title>
 </head>
-<body class="bg-danger">
-    <header class="bg-light p-3">
-        <h1 class="text-danger">Boolean Train System</h1>
+<body>
+
+    <header class="d-flex justify-content-between">
+        <div>
+            <img class="banner" src="./img/banner.jpg" alt="banner">
+        </div>
+        <div class="text-center d-flex flex-column align-items-center justify-content-center gap-2">
+            <img class="logo" src="./img/logo.png" alt="logo">
+            <h1 class="text-white text-center">Boolean Train System</h1>
+            <p class="text-white fs-5">I migliori viaggi virtuali dal 2025</p>
+        </div>
     </header>
 
+    <main>
     <section class="my-5">
         <div class="container text-center">
             <h2 class="text-white">CALCOLA IL PREZZO DEL TUO BIGLIETTO</h2>
-            <form id="ticket-form" class="row border rounded text-danger fs-4 bg-light shadow-lg p-4 ">
+            <form id="ticket-form" class="row border rounded text-sd-blue fs-4 bg-light shadow-lg p-4 ">
                 <div class="col-4">
                     <label for="name-input" class="mb-2">Nome e cognome</label>
-                    <input id="name-input" class="form-control border border-danger" type="text" name="name-input" required>
+                    <input id="name-input" class="form-control" type="text" name="name-input" required>
                 </div>
                 <div class="col-4">
                     <label for="km-input" class="mb-2">Chilometri di viaggio previsti</label>
-                    <input id="km-input" class="form-control border border-danger" type="number" name="km-input" required>
+                    <input id="km-input" class="form-control" type="number" name="km-input" required>
                 </div>
                 <div class="col-4">
                     <label for="age-input" class="mb-2">Fascia d'età</label>
-                    <select id="age-input" class="form-select border border-danger" name="age-input" required>
+                    <select id="age-input" class="form-select" name="age-input" required>
                         <option value="Maggiorenne">Maggiorenne</option>
                         <option value="Minorenne">Minorenne</option>
                         <option value="Over 65">Over 65</option>
                     </select>
                 </div>
                 <div class="col-12 d-flex justify-content-center gap-2 my-4">
-                    <button id="submit" class="btn btn-success text-white fs-5 fw-bold">Invia</button>
+                    <button id="submit" class="btn text-white fs-5 fw-bold">Invia</button>
                     <button id="cancel" class="btn btn-danger text-white fs-5 fw-bold">Annulla</button>
                 </div>
             </form>
@@ -42,9 +54,9 @@
 
     <section id="ticket-price" class="d-none">
         <h2 class="text-center text-white">IL TUO BIGLIETTO</h2>
-        <div class="container bg-light shadow-lg p-4 ">
+        <div class="container bg-light shadow-lg p-4 text-sd-blue">
             <h3 class="fs-5">DETTAGLIO PASSEGGERI</h3>
-                <div class="row row-cols-5 border-top border-bottom border-secondary">
+                <div class="row row-cols-5 border-top border-bottom border-secondary ">
                     <div class="col bg-secondary p-2">
                         <h4 class="fs-5">👤 NOME PASSEGGERO</h4>
                         <strong id="passenger-name" class="fs-5 my-5"></strong>
@@ -68,7 +80,7 @@
                 </div>
                 </div>
     </section>
-
+    </main>
 
 <script src="./js/script.js"></script>
 </body>
