@@ -11,6 +11,7 @@ const passenger = document.getElementById("passenger-name");
 const plan = document.getElementById("plan");
 const price = document.getElementById("price");
 
+nameInput.focus();
 ticketForm.addEventListener("submit", function (event) {
 event.preventDefault(); 
 // Salvo gli input dell'utente // 
