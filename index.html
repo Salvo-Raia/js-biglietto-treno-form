@@ -8,10 +8,15 @@
     integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <title>Document</title>
 </head>
-<body>
+<body class="bg-danger">
+    <header class="container my-2">
+       <h1 class="text-white">Boolean Train System</h1> 
+    </header>
+
     <section>
-        <div class="container my-2">
-            <form id="ticket-form" class="row g-3">
+        <div class="container text-center my-4">
+            <h2 class="text-white mb-4">Calcola il prezzo del tuo biglietto</h2>
+            <form id="ticket-form" class="row g-3 border rounded text-danger fs-4 bg-light py-3">
                 <div class="col-4">
                     <label for="name-input">Nome e cognome</label>
                     <input id="name-input" class="form-control" type="text" name="name-input" required>
@@ -33,6 +38,30 @@
                     <button class="btn btn-primary">Annulla</button>
                 </div>
             </form>
+
+            <div id="ticket-price" class="row row-cols-5 my-5 d-none">
+                <div>
+                    <h4>Nome passeggero</h3>
+                    <p id="passenger-name"></p>
+                </div>
+                <div>
+                    <h4>Offerta</h4>
+                    <p id="plan"></p>
+                    </div>
+                <div>
+                    <h4>Carrozza</h4>
+                    <p id="Carrozza">5</p>
+                    </div>
+                <div>
+                    <h4>Codice CP</h4>
+                    <p>92911</p>
+                    </div>
+                <div>
+                    <h4>Costo biglietto</h4>
+                    <p id="price"></p>
+                    </div>
+
+            </div>
         </div>
     </section>
 
