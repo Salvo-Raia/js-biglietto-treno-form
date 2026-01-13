@@ -10,7 +10,7 @@ const ageInput = document.getElementById("age-input")
 ticketForm.addEventListener("submit", function (event) {
 event.preventDefault(); 
 const name = nameInput.value;
-const km = parseFloat(kmInput.value);
+const km = kmInput.valueAsNumber;
 const age = ageInput.value;
 const ticketStandard = km * 0.21; 
 const discountUnderAge = ticketStandard * 0.20;
