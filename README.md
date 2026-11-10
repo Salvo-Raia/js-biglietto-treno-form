@@ -1,6 +1,6 @@
 ![Boolean Tech Academy](https://img.shields.io/badge/Boolean_Tech_Academy-001632?style=for-the-badge)
 
-# 🎓 Exercise 15/50 - Train Ticket Calculator
+# 🎓 Exercise 15/50 - Train Ticket Calculator (Biglietto del treno)
 
 ## 📌 Project Overview
 
