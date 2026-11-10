@@ -1,25 +1,80 @@
-# Esercizio: Calcolo del prezzo del biglietto del treno
-Nome repo: `js-biglietto-treno-form`
+![Boolean Tech Academy](https://img.shields.io/badge/Boolean_Tech_Academy-001632?style=for-the-badge)
 
-## Consegna
+# 🎓 Exercise 15/50 - Train Ticket Calculator
 
-Scrivere un programma che chieda all’utente:
+## 📌 Project Overview
 
-* Il numero di chilometri da percorrere
-* Età del passeggero
-* Sulla base di queste informazioni dovrà calcolare il prezzo totale del biglietto di viaggio, secondo le seguenti regole:
-il prezzo del biglietto è definito in base ai km (0.21 € al km)
-* va applicato uno sconto del 20% per i minorenni
-* va applicato uno sconto del 40% per gli over 65.
+| Property | Details |
+|:--|:--|
+| Repository | js-biglietto-treno-form |
+| Category | Boolean Tech Academy |
+| Type | Exercise |
+| Exercise | 15/50 |
 
-### MILESTONE 1:
-Iniziamo implementando il programma senza alcuna estetica: usando esclusivamente due input e un bottone (non stilizzati), realizziamo le specifiche scritte sopra. La risposta finale (o output) sarà anch’essa da scrivere in console. 
+## 🎯 Assignment
 
-### MILESTONE 2:
-Solo una volta che il milestone 1 sarà completo e funzionante allora graficheremo un form in pagina in cui l’utente potrà inserire i dati e un biglietto in cui visualizzare il calcolo finale con il prezzo. Il recap dei dati e l'output del prezzo finale, andranno quindi stampati in pagina (il prezzo dovrà essere formattato con massimo due decimali, per indicare i centesimi sul prezzo). Questo richiederà un minimo di ricerca.
+### Train Ticket Price Calculator
 
-### MILESTONE 3:
-Ora che la logica è funzionante in pagina, possiamo andare a dedicarci allo stile, raffinando la parte di HTML e CSS in modo da renderla esteticamente gradevole.
+Create a program that asks the user to enter:
 
-**Nota:**
-Se non vi sentite particolarmente creativi, questa potrebbe essere un’implementazione da seguire per il secondo milestone. Potete scegliere di implementare una soluzione completamente diversa oppure simile, ma in ogni caso cercate di farla vostra. 
+- The number of kilometers to travel.
+- The passenger's age.
+
+Based on this information, calculate the total ticket price according to the following rules:
+
+- The standard ticket price is **€0.21 per kilometer**.
+- Passengers under 18 are entitled to a **20% discount**.
+- Passengers over 65 are entitled to a **40% discount**.
+- All other passengers pay the full ticket price.
+
+## 📋 Milestones
+
+### Milestone 1 - Basic Functionality
+
+Start by implementing the program without any styling.
+
+Use only two input fields and one button, with no additional visual customization, to meet the requirements described above.
+
+For this first milestone, display the final result in the browser console.
+
+### Milestone 2 - Form and Ticket Layout
+
+Once Milestone 1 is complete and fully functional, create a form on the page where users can enter their information.
+
+Also, build a ticket layout to display the final calculation.
+
+The passenger information recap and the final ticket price must now be displayed directly on the page.
+
+Format the final price with a maximum of two decimal places to represent cents. This will require a little research into JavaScript number formatting.
+
+### Milestone 3 - Styling and Refinement
+
+Now that the program logic works correctly on the page, focus on the visual presentation.
+
+Refine the HTML and CSS to make the form and ticket layout aesthetically pleasing.
+
+### 💡 Design Reference
+
+If you are unsure where to start creatively, you can use the implementation provided in the original assignment as inspiration for Milestone 2.
+
+You are free to create a completely different solution or follow a similar approach. In either case, try to make the project your own.
+
+## 🛠️ Technologies
+
+![HTML](https://img.shields.io/badge/HTML-E34F26?style=flat-square&logo=html5&logoColor=white) ![CSS](https://img.shields.io/badge/CSS-1572B6?style=flat-square&logo=css&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+
+## 💡 What I Learned
+
+- Collecting and handling user input through HTML forms.
+- Working with JavaScript variables and numerical values.
+- Performing calculations and applying percentage-based discounts.
+- Implementing conditional logic based on passenger age.
+- Handling button click events.
+- Displaying results dynamically in the browser console and on the page.
+- Formatting numerical values with a maximum of two decimal places.
+- Structuring and styling a form and a dynamic ticket layout using HTML and CSS.
+- Progressively developing a project through milestones.
+
+## ©️ Credits
+
+Exercise assigned by **Boolean Tech Academy** as part of the Web Development course - Class 152 - Year 2025-2026
