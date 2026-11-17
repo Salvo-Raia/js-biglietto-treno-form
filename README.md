@@ -1,6 +1,8 @@
-![Boolean Tech Academy](https://img.shields.io/badge/Boolean_Tech_Academy-001632?style=for-the-badge)
+![Static Badge](https://img.shields.io/badge/Boolean_Tech_Academy-1565C0?style=for-the-badge)
 
-# 🎓 Exercise 25/50 - Train Ticket Calculator & DOM
+# 🎓 Exercise 25/50: Train Ticket Calculator & DOM
+
+Building an interactive train ticket calculator with HTML, CSS, and JavaScript, using form inputs, conditional discounts, DOM manipulation, and dynamic price formatting to generate a personalized ticket.
 
 ## 📌 Project Overview
 
@@ -25,9 +27,9 @@ Based on this information, calculate the total ticket price according to the fol
 - Passengers over 65 are entitled to a **40% discount**.
 - All other passengers pay the full ticket price.
 
-## 📋 Milestones
+### 📒 Guidelines
 
-### Milestone 1 - Basic Functionality
+#### Milestone 1 - Basic Functionality
 
 Start by implementing the program without any styling.
 
@@ -35,7 +37,7 @@ Use only two input fields and one button, with no visual customization, to meet 
 
 For this first milestone, display the final result in the browser console.
 
-### Milestone 2 - Form and Ticket Layout
+#### Milestone 2 - Form and Ticket Layout
 
 **Only after Milestone 1 is complete and fully functional**, move on to the visual structure.
 
@@ -45,13 +47,13 @@ Both the passenger information recap and the final ticket price must now be disp
 
 Format the final price with a maximum of two decimal places to represent cents. This will require a little research into JavaScript number formatting.
 
-### Milestone 3 - Styling and Refinement
+#### Milestone 3 - Styling and Refinement
 
 Once the program logic works correctly on the page, focus on its visual presentation.
 
 Refine the HTML and CSS to make the form and ticket layout aesthetically pleasing.
 
-### 💡 Design Reference
+### 🔎 Notes
 
 If you are unsure where to start creatively, you can use the implementation suggested in the original assignment as inspiration for Milestone 2.
 
@@ -76,4 +78,4 @@ You are free to create a completely different solution or follow a similar appro
 
 ## ©️ Credits
 
-Exercise assigned by **Boolean Tech Academy** as part of the Web Development course - Class 152 - Year 2025-2026
+Exercise assigned by **Boolean Tech Academy** as part of the Web Development course (Class 152, A.Y. 2025–2026).
