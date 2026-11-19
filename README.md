@@ -1,19 +1,16 @@
 ![Static Badge](https://img.shields.io/badge/Boolean_Tech_Academy-1565C0?style=for-the-badge)
 
-# 🎓 Exercise 25/50: Train Ticket Calculator & DOM
+# Exercise 25/50: Train Ticket Calculator & DOM
 
 Building an interactive train ticket calculator with HTML, CSS, and JavaScript, using form inputs, conditional discounts, DOM manipulation, and dynamic price formatting to generate a personalized ticket.
 
-## 📌 Project Overview
+## Project overview
 
-| Property | Details |
-|:--|:--|
-| Repository | js-biglietto-treno-form |
-| Category | Boolean Tech Academy |
-| Type | Exercise |
-| Exercise | 25/50 |
+| Repository | Project | Category | Main Focus | Exercise |
+|:--|:--|:--|:--|:--|
+| js-biglietto-treno-form | Train Ticket Calculator & DOM | Exercise | JavaScript DOM manipulation & Forms | 25/50 |
 
-## 🎯 Assignment
+## Assignment
 
 Create a program that asks the user to enter:
 
@@ -27,9 +24,8 @@ Based on this information, calculate the total ticket price according to the fol
 - Passengers over 65 are entitled to a **40% discount**.
 - All other passengers pay the full ticket price.
 
-### 📒 Guidelines
 
-#### Milestone 1 - Basic Functionality
+#### Milestone 1: Basic Functionality
 
 Start by implementing the program without any styling.
 
@@ -37,7 +33,7 @@ Use only two input fields and one button, with no visual customization, to meet 
 
 For this first milestone, display the final result in the browser console.
 
-#### Milestone 2 - Form and Ticket Layout
+#### Milestone 2: Form and Ticket Layout
 
 **Only after Milestone 1 is complete and fully functional**, move on to the visual structure.
 
@@ -47,23 +43,23 @@ Both the passenger information recap and the final ticket price must now be disp
 
 Format the final price with a maximum of two decimal places to represent cents. This will require a little research into JavaScript number formatting.
 
-#### Milestone 3 - Styling and Refinement
+#### Milestone 3: Styling and Refinement
 
 Once the program logic works correctly on the page, focus on its visual presentation.
 
 Refine the HTML and CSS to make the form and ticket layout aesthetically pleasing.
 
-### 🔎 Notes
+##### Notes
 
 If you are unsure where to start creatively, you can use the implementation suggested in the original assignment as inspiration for Milestone 2.
 
 You are free to create a completely different solution or follow a similar approach. In either case, try to make the project your own.
 
-## 🛠️ Technologies
+## Technologies
 
 ![HTML](https://img.shields.io/badge/HTML-E34F26?style=flat-square&logo=html5&logoColor=white) ![CSS](https://img.shields.io/badge/CSS-1572B6?style=flat-square&logo=css&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
 
-## 💡 What I Learned
+## What I learned
 
 - Collecting and handling user input through HTML forms.
 - Working with JavaScript variables and numerical values.
@@ -76,6 +72,6 @@ You are free to create a completely different solution or follow a similar appro
 - Structuring and styling a form and a dynamic ticket layout using HTML and CSS.
 - Developing a project progressively through multiple milestones.
 
-## ©️ Credits
+## Credits
 
-Exercise assigned by **Boolean Tech Academy** as part of the Web Development course (Class 152, A.Y. 2025–2026).
+Exercise assigned by **Boolean Tech Academy** as part of the Web Development course (Class 152, A.Y. 2025-2026).
