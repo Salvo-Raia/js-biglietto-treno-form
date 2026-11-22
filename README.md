@@ -8,7 +8,7 @@ Building an interactive train ticket calculator with HTML, CSS, and JavaScript, 
 
 | Repository | Project | Category | Main Focus | Exercise |
 |:--|:--|:--|:--|:--|
-| js-biglietto-treno-form | Train Ticket Calculator & DOM | Exercise | JavaScript DOM manipulation & Forms | 25/50 |
+| js-biglietto-treno-form | Train Ticket Calculator & DOM | Exercise | JavaScript DOM manipulation & Form | 25/50 |
 
 ## Assignment
 
@@ -25,7 +25,7 @@ Based on this information, calculate the total ticket price according to the fol
 - All other passengers pay the full ticket price.
 
 
-#### Milestone 1: Basic Functionality
+#### Milestone 1: Basic functionality
 
 Start by implementing the program without any styling.
 
@@ -33,7 +33,7 @@ Use only two input fields and one button, with no visual customization, to meet 
 
 For this first milestone, display the final result in the browser console.
 
-#### Milestone 2: Form and Ticket Layout
+#### Milestone 2: Form and ticket Layout
 
 **Only after Milestone 1 is complete and fully functional**, move on to the visual structure.
 
@@ -43,7 +43,7 @@ Both the passenger information recap and the final ticket price must now be disp
 
 Format the final price with a maximum of two decimal places to represent cents. This will require a little research into JavaScript number formatting.
 
-#### Milestone 3: Styling and Refinement
+#### Milestone 3: Styling and refinement
 
 Once the program logic works correctly on the page, focus on its visual presentation.
 
@@ -57,7 +57,9 @@ You are free to create a completely different solution or follow a similar appro
 
 ## Technologies
 
-![HTML](https://img.shields.io/badge/HTML-E34F26?style=flat-square&logo=html5&logoColor=white) ![CSS](https://img.shields.io/badge/CSS-1572B6?style=flat-square&logo=css&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![HTML](https://img.shields.io/badge/HTML-E34F26?style=flat-square&logo=html5&logoColor=white) 
+![CSS](https://img.shields.io/badge/CSS-1572B6?style=flat-square&logo=css&logoColor=white) 
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
 
 ## What I learned
 
