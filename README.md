@@ -8,7 +8,7 @@ Building an interactive train ticket calculator with HTML, CSS, and JavaScript, 
 
 | Repository | Project | Category | Main Focus | Exercise |
 |:--|:--|:--|:--|:--|
-| js-biglietto-treno-form | Train Ticket Calculator & DOM | Exercise | JavaScript DOM manipulation & Form | 25/50 |
+| js-biglietto-treno-form | Train Ticket Calculator & DOM | Exercise | JavaScript, DOM manipulation & Form | 25/50 |
 
 ## Assignment
 
@@ -17,7 +17,7 @@ Create a program that asks the user to enter:
 - The number of kilometers to travel.
 - The passenger's age.
 
-Based on this information, calculate the total ticket price according to the following rules:
+Based on this information, calculate the total ticket price according to the following rules.
 
 - The standard ticket price is **€0.21 per kilometer**.
 - Passengers under 18 are entitled to a **20% discount**.
@@ -33,7 +33,7 @@ Use only two input fields and one button, with no visual customization, to meet 
 
 For this first milestone, display the final result in the browser console.
 
-#### Milestone 2: Form and ticket Layout
+#### Milestone 2: Form and ticket layout
 
 **Only after Milestone 1 is complete and fully functional**, move on to the visual structure.
 
