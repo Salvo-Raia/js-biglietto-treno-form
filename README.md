@@ -8,7 +8,7 @@ Building an interactive train ticket calculator with HTML, CSS, and JavaScript, 
 
 | Repository | Project | Category | Main Focus | Exercise |
 |:--|:--|:--|:--|:--|
-| js-biglietto-treno-form | Train Ticket Calculator & DOM | Exercise | JavaScript, DOM manipulation & Form | 25/50 |
+| js-biglietto-treno-form | Train Ticket Calculator & DOM | Exercise | JavaScript, DOM manipulation, form | 25/50 |
 
 ## Assignment
 
@@ -40,7 +40,7 @@ Create a form on the page where users can enter their information, along with a 
 
 Both the passenger information recap and the final ticket price must now be displayed directly on the page.
 
-Format the final price with a maximum of two decimal places to represent cents. This will require a little research into JavaScript number formatting.
+Format the final price with a maximum of two decimal places to represent cents. You may need to look into JavaScript number formatting to achieve this.
 
 #### Milestone 3: Styling and refinement
 
