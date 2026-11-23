@@ -24,7 +24,6 @@ Based on this information, calculate the total ticket price according to the fol
 - Passengers over 65 are entitled to a **40% discount**.
 - All other passengers pay the full ticket price.
 
-
 #### Milestone 1: Basic functionality
 
 Start by implementing the program without any styling.
